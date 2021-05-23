@@ -15,22 +15,6 @@ static void test() {
     uint64_t test_case_2 = fibonacci(1);
     assert(test_case_2 == 1);
     std::cout << "Passed Test 2!" << std::endl;
-
-    uint64_t test_case_3 = fibonacci(2);
-    assert(test_case_3 == 1);
-    std::cout << "Passed Test 3!" << std::endl;
-
-    uint64_t test_case_4 = fibonacci(3);
-    assert(test_case_4 == 2);
-    std::cout << "Passed Test 4!" << std::endl;
-
-    uint64_t test_case_5 = fibonacci(4);
-    assert(test_case_5 == 3);
-    std::cout << "Passed Test 5!" << std::endl;
-
-    uint64_t test_case_6 = fibonacci(15);
-    assert(test_case_6 == 610);
-    std::cout << "Passed Test 6!" << std::endl << std::endl;
 }
 
 int main() {
